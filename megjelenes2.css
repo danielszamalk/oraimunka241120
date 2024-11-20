@@ -27,13 +27,13 @@ footer {
 
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr;
     /*grid-template-rows: 1fr 1fr 1fr 1fr;*/
     grid-template-areas:
-        'he he he'
-        'na na na'
-        'ba ko jo'
-        'fo fo fo';
+        'he he'
+        'na na'
+        'ba jo'
+        'fo fo';
 }
 
 .arckep {
@@ -86,3 +86,6 @@ nav>a {
 
 #baltartalom>h2, #kozeptartalom>h2, .ures{background-color: lightgrey;}
 #baltartalom>h2, #kozeptartalom>h2{color: rgb(0, 135, 104); font-size: 80%; font-weight: normal;}
+
+ol>li{text-align: justify;}
+ol{margin-left: 25px;}

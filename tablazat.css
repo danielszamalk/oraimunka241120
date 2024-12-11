@@ -1,0 +1,5 @@
+aside#baltartalom3{display: block;}
+table{width: 100%;}
+th{border-bottom: 1px black solid; text-align: left;}
+table, tr, th, td{border-collapse: collapse;}
+tr:nth-child(even){background-color: lightgray;}
